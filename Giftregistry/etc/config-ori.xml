@@ -14,18 +14,16 @@
         <mdg_giftregistry_mysql4>
             <class>Mdg_Giftregistry_Model_Mysql4</class>
             <entities>
-					<entity>
-						<table>mdg_giftregistry_entity</table>
-						<!--	this table name will be called as $this->getTable('mdg_giftregistry/entity'); 	-->
-					</entity>
-					<item>
-						<table>mdg_giftregistry_item</table>
-						<!--	this table name will be called as $this->getTable('mdg_giftregistry/item'); 	-->
-					</item>
-					<type>
-						<table>mdg_giftregistry_type</table>
-					</type>
-				</entities>
+                <entity>
+                    <table>mdg_giftregistry_entity</table>
+                </entity>
+                <item>
+                    <table>mdg_giftregistry_item</table>
+                </item>
+                <type>
+                    <table>mdg_giftregistry_type</table>
+                </type>
+            </entities>
         </mdg_giftregistry_mysql4>
     </models>
         <blocks>
